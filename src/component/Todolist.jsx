@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getTasks, createTask, updateTask, deleteTask } from '../services/taskservices';
-import "../assets/Todolist.css";
+import "../assets/todolist.css";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
